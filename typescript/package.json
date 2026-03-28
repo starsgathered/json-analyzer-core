@@ -1,0 +1,35 @@
+{
+  "name": "@starsgathered/json-analyzer-core",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "json",
+    "json-analyzer",
+    "json-parser",
+    "json-formatter",
+    "json-minifier",
+    "typescript",
+    "data-analysis",
+    "client-side"
+  ],
+  "author": "StarsGathered",
+  "license": "MIT",
+  "description": "A TypeScript library for analyzing, formatting, minifying, and visualizing JSON data in a structured way. Perfect for developers and data analysts.",
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "typescript": "^6.0.2"
+  }
+}
