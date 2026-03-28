@@ -1,3 +1,4 @@
+// src/types.ts
 export interface JSONStats {
     objects: number;
     arrays: number;

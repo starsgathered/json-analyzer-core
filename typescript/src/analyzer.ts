@@ -1,3 +1,4 @@
+// src/analyzer.ts
 import { JSONStats, JSONAnalysis } from './types';
 
 export class JSONAnalyzer {
